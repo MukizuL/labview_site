@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './Main.css';
 
-function HeroSection() {
+function Main() {
   return (
-    <div className='hero-container'>
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
-      <div className='hero-btns'>
+    <div className='main-container'>
+      <h1>Place holder</h1>
+      <p>Place holder!</p>
+      <div className='main-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -21,4 +21,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Main;
