@@ -2,7 +2,8 @@ import React from 'react';
 import '../App.css';
 import './Overview.css';
 
-function overview() {
+
+function Overview() {
   return (
     <>
     <div className='overview-white-stripe'>
@@ -21,4 +22,4 @@ function overview() {
   );
 }
 
-export default overview;
+export default Overview;
