@@ -1,4 +1,4 @@
-.contents-main-container {
+.overview-main-container {
     background-color: #099;
     height: 100vh;
     width: 100%;
@@ -10,13 +10,13 @@
     object-fit: contain;
   }
   
-  .contents-main-container > h1 {
+  .overview-main-container > h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
   }
   
-  .contents-main-container > p {
+  .overview-main-container > p {
     margin-top: 8px;
     color: #fff;
     font-size: 32px;

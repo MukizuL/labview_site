@@ -1,15 +1,15 @@
 import React from 'react';
 import '../App.css';
-import './Content.css';
+import './Overview.css';
 
-function Content() {
+function overview() {
   return (
     <>
-    <div className='contents-white-stripe'>
+    <div className='overview-white-stripe'>
         <h1>Содержание</h1>
     </div>
 
-    <div className='contents-main-container'>
+    <div className='overview-main-container'>
         <p>Что такое LabView?</p>
         <p>Преимущества и недостатки</p>
         <p>Сферы применения</p>
@@ -21,4 +21,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default overview;
