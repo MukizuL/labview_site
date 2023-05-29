@@ -1,10 +1,7 @@
-.overview-white-stripe {
-  height: 5vh;
-}
-
-.overview-main-container {
+.content-main-container {
     background-color: #099;
-    height: 86vh;
+    height: 92vh;
+    position: sticky;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,28 +11,16 @@
     object-fit: contain;
   }
   
-  .overview-main-container > h1 {
+  .content-main-container > h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
   }
-  
-  .overview-main-container > p {
+
+  .content-main-container > p {
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .main-btns {
-    margin-top: 32px;
-  }
-  
-  .main-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
   }

@@ -1,8 +1,9 @@
 .progress-bar {
     top: 80px;
     position: sticky;
-    width: 100%;
-    height: 10px;
+    display: flex;
+    height: 1vh;
+    /*height: 10px;*/
     background-color: #ccc;
   }
   

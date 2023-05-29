@@ -1,12 +1,11 @@
 import React from 'react';
 import '../../App.css';
-//import Content from '../Content';
-import ProgressBar from '../ProgressBar';
+import Content from '../Content';
 
 function Contents() {
   return (
     <>
-      <ProgressBar />
+      <Content />
       
       
     </>
