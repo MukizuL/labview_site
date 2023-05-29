@@ -5,10 +5,10 @@ import './Main.css';
 
 function Main() {
   return (
-    <div className='main-container'>
-      <h1>Place holder</h1>
-      <p>Place holder!</p>
-      <div className='main-btns'>
+    <div className='Main-main-container'>
+      <h1>LabView</h1>
+      <p>Образовательная платформа</p>
+      <div className='Main-main-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
