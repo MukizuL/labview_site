@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+  
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -43,7 +44,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/content'
+                to='/contents'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
