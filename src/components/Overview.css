@@ -27,6 +27,16 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+
+  .overview-main-container > ul {
+    list-style: inside;
+    margin-top: 8px;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
   
   .main-btns {
     margin-top: 32px;
