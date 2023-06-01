@@ -44,37 +44,6 @@ function Content() {
           <li>Подпрограммы</li>
           <li>Практическая работа</li>
         </ul>
-        <div className="Main-main-btns">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-            destination="/module3"
-          >
-            3 Модуль
-          </Button>
-        </div>
-        <ul class="list">
-          <li>Оформление документов LabVIEW</li>
-          <li>Структуры типа "последовательность"</li>
-          <li>Работа с массивами</li>
-          <li>Кластеры</li>
-        </ul>
-        <div className="Main-main-btns">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-            destination="/module4"
-          >
-            4 Модуль
-          </Button>
-        </div>
-        <ul class="list">
-          <li>Строковые переменные и функции преобразования</li>
-          <li>Изменение свойств элементов управления и индикации</li>
-          <li>Практическая работа</li>
-        </ul>
       </div>
     </>
   );
