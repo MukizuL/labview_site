@@ -49,3 +49,24 @@
       align-items: stretch; 
       text-align: left; 
     }
+
+    .Module2-main-container > p {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5vh;
+        line-height: 1.5;
+      }
+      
+      .Module2-main-container > ol {
+        margin-left: 5%;
+      }
+      
+      .Module2-main-container > ul {
+        margin-left: 5%;
+      }
+      .immg{
+        margin-left: 45%;
+      }
+      .immmg{
+        margin-left: 5%;
+      }
