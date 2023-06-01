@@ -1,37 +1,124 @@
+.overview-white-stripe {
+  height: 5vh;
+  text-align: center;
+}
+
 .overview-main-container {
-    background-color: #099;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: left;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-  }
-  
-  .overview-main-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
-  }
-  
-  .overview-main-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .main-btns {
-    margin-top: 32px;
-  }
-  
-  .main-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
-  }
+  background-color: #00308f;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  line-height: 1.5;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.overview-main-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.overview-main-container > p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+  text-align: left;
+  width: 90%;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.overview-main-container > ul {
+  list-style: inside;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 9%;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.list > li {
+  margin-top: 20px;
+}
+
+.square {
+  width: 90%;
+  height: fit-content;
+  border-radius: 30px;
+  background-color: #099;
+  display: block;
+  align-self: center;
+  justify-content: center;
+  align-items: stretch;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.square > ul {
+  list-style: inside;
+  margin-top: 8px;
+  margin-left: 5%;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.square > p {
+  margin-top: 8px;
+  margin-left: 8%;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.square-border {
+  width: 90%;
+  height: fit-content;
+  border: solid;
+  border-radius: 30px;
+  border-width: thick;
+  border-color: #099;
+  background-color: #00308f;
+  display: block;
+  align-self: center;
+  justify-content: center;
+  align-items: stretch;
+  text-align: left;
+}
+
+.square-border > p {
+  margin-top: 8px;
+  margin-left: 5%;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-btns {
+  margin-top: 32px;
+}
+
+.main-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.definition {
+  align-self: center;
+  text-align: left;
+  width: 90%;
+}
