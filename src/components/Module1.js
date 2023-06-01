@@ -39,7 +39,7 @@ function Module1() {
           <span class="italicbold">открыть уже существующий проект</span> (Open
           Existing).
         </p>
-        <img src={first} alt="First" style={{ width: 600 }} />
+        <img src={first} alt="First" style={{ width: 700 }} />
         <p>
           Выбирайте опцию меню по созданию нового VI и у Вас появятся два окна:{" "}
           <span class="italicbold">лицевая панель</span> (Front Panel), т.е.
