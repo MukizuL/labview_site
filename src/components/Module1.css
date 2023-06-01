@@ -1,66 +1,53 @@
 .Module1-white-stripe {
-    height: 5vh;
-    text-align: center;
-  }
-  
-  .Module1-main-container {
-    background-color: #00308f;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-    line-height: 1.5;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-  }
-  
-  .Module1-main-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
-  }
-  
-  .Module1-main-container > p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-self: center;
-    text-align: left;
-    width: 90%;
-    color: #fff;
-    font-size: 32px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-  }
-span.italic{
-    font-style: italic;
+  height: 5vh;
+  text-align: center;
 }
-span.bold{
-    font-weight: bold;
+
+.Module1-main-container {
+  background-color: #00308f;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  line-height: 1.5;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
-span.italicbold{
-    font-style: italic;
-    font-weight: bold;
+
+.Module1-main-container > img {
+  align-self: center;
 }
-.style{
+
+.Module1-main-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.Module1-main-container > p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+  text-align: left;
+  width: 90%;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+span.italic {
+  font-style: italic;
+}
+span.bold {
+  font-weight: bold;
+}
+span.italicbold {
+  font-style: italic;
+  font-weight: bold;
+}
+.style {
   margin-left: 450px;
 }
-.img5{
-  margin-left: 450px;
-}
-.img4{
-  margin-left: 430px;
-}
-.img3{
-  margin-left: 400px;
-}
-.img6{
-  margin-left: 500px;
-}
-.img2{
-  margin-left: 300px;
-}
-.img1{
-  margin-left: 250px;
-}
+
