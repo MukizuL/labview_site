@@ -39,7 +39,7 @@ function Module1() {
           <span class="italicbold">открыть уже существующий проект</span> (Open
           Existing).
         </p>
-        <img src={first} alt="First" style={{ width: 400 }} />
+        <img src={first} alt="First" style={{ width: 700 }} />
         <p>
           Выбирайте опцию меню по созданию нового VI и у Вас появятся два окна:{" "}
           <span class="italicbold">лицевая панель</span> (Front Panel), т.е.
@@ -47,11 +47,11 @@ function Module1() {
           <span class="italicbold">блок-диаграмма</span> (Block Diagram),
           которая является программой в графическом виде.
         </p>
-        <img src={second} alt="Second" style={{ width: 400 }} />
+        <img src={second} alt="Second" style={{ width: 800 }} />
         <p className="style">
           Оба окна имеют линейки инструментов, имеющие служебные кнопки:
         </p>
-        <img src={third} alt="Third" style={{ width: 400 }} />
+        <img src={third} alt="Third" style={{ width: 1000 }} />
         <p>
           1 - запуск программы; 2 - запуск программы в циклическом режиме; 3 -
           прекращение выполнения программы; 4 - приостановка выполнения
@@ -67,7 +67,7 @@ function Module1() {
         <p className="style">
           Также оба окна содержат меню, в котором имеются несколько подменю:
         </p>
-        <img src={fourth} alt="Fourth" style={{ width: 400 }} />
+        <img src={fourth} alt="Fourth" style={{ width: 1000 }} />
         <p>
           <span class="italicbold">File</span> - используется для открытия,
           создания и записи файла; <span class="italicbold">Edit</span> -
@@ -104,7 +104,7 @@ function Module1() {
           его как "Результат". Должно получиться приблизительно так, как
           показано на картинке.
         </p>
-        <img src={fifth} alt="Fifth" style={{ width: 400 }} />
+        <img src={fifth} alt="Fifth" style={{ width: 800 }} />
         <p>
           Теперь перейдем к основной части работы, а именно к графическому
           программированию. В отличии от других языков графического
@@ -136,7 +136,7 @@ function Module1() {
           входом индикатора. Должна получиться функциональная диаграмма ("текст"
           программы) похожая на изображенную на рисунке.
         </p>
-        <img src={sixth} alt="Sixth" style={{ width: 400 }} />
+        <img src={sixth} alt="Sixth" style={{ width: 700 }} />
         <p>
           Все, программа написана. Теперь остается запустить ее на выполнение и
           убедиться в ее работоспособности. Запускаем программу на выполнение в
@@ -159,7 +159,7 @@ function Module1() {
           подменю Numeric и там выбираем{" "}
           <span class="italicbold">шарообразную ручку управления</span> (Knob).
         </p>
-        <img src={seventh} alt="Seventh" style={{ width: 400 }} />
+        <img src={seventh} alt="Seventh" style={{ width: 900 }} />
         <p>
           Изменим размер ручки с помощью растягивания её границ для увеличения
           точности задаваемых чисел. Изменим атрибуты ручки "Х", нажав на неё
@@ -173,7 +173,7 @@ function Module1() {
           <span class="italicbold">Replace {">>"} Numeric</span>. В результате
           получим похожий рисунок.
         </p>
-        <img src={eighth} alt="Eighth" style={{ width: 400 }} />
+        <img src={eighth} alt="Eighth" style={{ width: 850 }} />
         <p>
           Немного усложним задачу. Установим на панель{" "}
           <span class="italicbold">графический экран</span>, который будет
@@ -182,7 +182,7 @@ function Module1() {
           <span class="italicbold">Graph</span>, а в появившемся подменю выберем{" "}
           <span class="italicbold">Waveform Chart</span>.
         </p>
-        <img src={nineth} alt="Nineth" style={{ width: 400 }} />
+        <img src={nineth} alt="Nineth" style={{ width: 850 }} />
         <p>
           Устанавливаем <span class="italic">графический экран</span> на панель
           и для удобства меняем его атрибуты и свойства. Задаём значения суммы в
@@ -191,7 +191,7 @@ function Module1() {
           изменить их. Аналогично можем изменить названия осей, цвет и ширину
           линии.
         </p>
-        <img src={tenth} alt="Tenth" style={{ width: 400 }} />
+        <img src={tenth} alt="Tenth" style={{ width: 800 }} />
         <p>
           Теперь продолжим разработку нашего программного кода. Установим связь
           между значением суммы и Waveform Chart. Для этого перейдем в БД и
@@ -200,7 +200,7 @@ function Module1() {
           результата, можно навести на эту связь указатель и, когда она начнет
           мигать, щёлкнуть левой кнопкой мыши и провести еще одну связь:
         </p>
-        <img src={eleventh} alt="Eleventh" style={{ width: 400 }} />
+        <img src={eleventh} alt="Eleventh" style={{ width: 700 }} />
         <p>
           До этого времени мы запускали программу на выполнение в циклическом
           режиме. Теперь же мы "поместим" фрагмент нашей диаграммы в{" "}
@@ -215,7 +215,7 @@ function Module1() {
           схемы. Поместим базовую структуру в цикл. Для этого выделяем всю
           схему, а затем перетягиваем выделенные элементы внутрь цикла:
         </p>
-        <img src={twelfth} alt="Twelfth" style={{ width: 400 }} />
+        <img src={twelfth} alt="Twelfth" style={{ width: 800 }} />
         <p>
           Теперь нажмем на{" "}
           <span class="italicbold">иконке условия выхода из цикла</span> правой
@@ -237,14 +237,14 @@ function Module1() {
           Введем значение с клавиатуры, равное, например, "250". В результате
           проделанной работы, диаграмма должна выглядеть следующим образом:
         </p>
-        <img src={thirteenth} alt="Thirteenth" style={{ width: 400 }} />
+        <img src={thirteenth} alt="Thirteenth" style={{ width: 800 }} />
         <p>
           Теперь остается желаемым образом сформировать{" "}
           <span class="italic">лицевую панель</span>, запустить программу на
           исполнение и наблюдать за графиком, меняя значения Х и Y. В итоге
           должен получиться похожий результат:
         </p>
-        <img src={fourteenth} alt="Fourteenth" style={{ width: 400 }} />
+        <img src={fourteenth} alt="Fourteenth" style={{ width: 1000 }} />
         <p>
           Нажав на созданную нами кнопку "Стоп", мы{" "}
           <span class="italic">остановим программу</span>. Теперь изменим
@@ -257,7 +257,7 @@ function Module1() {
           установки задержки и задатчик, переходим на ЛП и делаем перекомпоновку
           элементов на панели.
         </p>
-        <img src={fifteenth} alt="Fifteenth" style={{ width: 400 }} />
+        <img src={fifteenth} alt="Fifteenth" style={{ width: 1200 }} />
         <p>
           Во время работы программы попробуйте изменить положение ползунка
           регулятора задержки. Видим, что так можно управлять скоростью
@@ -284,7 +284,7 @@ function Module1() {
           , нажав правой кнопкой мыши на контакт N и выбрав пункт{" "}
           <span class="italicbold">Create Constant</span>:
         </p>
-        <img src={sixteenth} alt="Sixteenth" style={{ width: 400 }} />
+        <img src={sixteenth} alt="Sixteenth" style={{ width: 600 }} />
         <p>
           Далее внутри цикла создаём функцию{" "}
           <span class="italicbold">генерации случайных чисел от 0 до 1</span>{" "}
@@ -299,7 +299,7 @@ function Module1() {
           <span class="italicbold">Waveform Chart</span>, который мы уже
           создавали ранее. В итоге должна получиться следующая схема:
         </p>
-        <img src={seventeenth} alt="Seventeenth" style={{ width: 400 }} />
+        <img src={seventeenth} alt="Seventeenth" style={{ width: 800 }} />
         <p>
           Для начала результат будем выводить в виде графической зависимости
           случайных чисел от текущего значения числа итераций. Запустим
@@ -322,7 +322,7 @@ function Module1() {
           </span>
           , и соединим с ней схему, находящуюся в цикле For Loop:
         </p>
-        <img src={eighteenth} alt="Eighteenth" style={{ width: 400 }} />
+        <img src={eighteenth} alt="Eighteenth" style={{ width: 800 }} />
         <p>
           Так как кроме входа "
           <span class="italicbold">ввод одномерного массива</span>" (1D data),
@@ -344,7 +344,7 @@ function Module1() {
           аналогичный графику в LabVIEW, с помощью Мастера Диаграмм Microsoft
           Excel:
         </p>
-        <img src={nineteenth} alt="Nineteenth" style={{ width: 400 }} />
+        <img src={nineteenth} alt="Nineteenth" style={{ width: 800 }} />
         <p>
           В прошлой задаче мы использовали высокоуровневую функцию записи данных
           на диск. Для реализации более гибкого алгоритма можно использовать
@@ -393,7 +393,7 @@ function Module1() {
           <span class="bold">error out</span> функций. В результате получается
           похожая диаграмма:
         </p>
-        <img src={twentieth} alt="Twentieth" style={{ width: 400 }} />
+        <img src={twentieth} alt="Twentieth" style={{ width: 1200 }} />
         <p>
           После запуска программы на выполнение данные автоматически запишутся в
           заданный файл. Поскольку файл данных будет уже существовать, после
@@ -417,7 +417,7 @@ function Module1() {
           терминал. Ниже приведена таблица с основными типами данных и их
           обозначениями на БД.
         </p>
-        <img src={twentyfirst} alt="Twentyfirst" style={{ width: 400 }} />
+        <img src={twentyfirst} alt="Twentyfirst" style={{ width: 1000 }} />
       </div>
     </>
   );
