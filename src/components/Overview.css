@@ -1,13 +1,10 @@
 .overview-white-stripe {
-  background-color: #090934;
-  color: #f3f7d4;
   height: 5vh;
   text-align: center;
 }
 
 .overview-main-container {
-  /*background-color: #00308f;*/
-  background-color: #2e2fe3;
+  background-color: #00308f;
   height: fit-content;
   width: 100%;
   display: flex;
@@ -20,7 +17,7 @@
 }
 
 .overview-main-container > h1 {
-  color: #f3f7d4;
+  color: #fff;
   font-size: 100px;
   margin-top: -100px;
 }
@@ -31,7 +28,7 @@
   align-self: center;
   text-align: left;
   width: 90%;
-  color: #f3f7d4;
+  color: #fff;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -39,8 +36,8 @@
 
 .overview-main-container > ul {
   list-style: inside;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: 9%;
   color: #fff;
   font-size: 32px;
@@ -48,12 +45,15 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+.list > li {
+  margin-top: 20px;
+}
+
 .square {
   width: 90%;
   height: fit-content;
   border-radius: 30px;
-  /*background-color: #099;*/
-  background-color: #090934;
+  background-color: #099;
   display: block;
   align-self: center;
   justify-content: center;
@@ -65,11 +65,9 @@
 .square > ul {
   list-style: inside;
   margin-top: 8px;
-  margin-bottom: 4vh;
   margin-left: 5%;
   color: #fff;
   font-size: 32px;
-  font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -89,8 +87,8 @@
   border: solid;
   border-radius: 30px;
   border-width: thick;
-  border-color: #090934;
-  background-color: #2e2fe3;
+  border-color: #099;
+  background-color: #00308f;
   display: block;
   align-self: center;
   justify-content: center;
@@ -117,4 +115,10 @@
 
 .fa-play-circle {
   margin-left: 4px;
+}
+
+.definition {
+  align-self: center;
+  text-align: left;
+  width: 90%;
 }

@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import "../App.css";
 //import { Button } from './Button';
 import "./Module2.css";
-import first from "./media/images/img-1.jpg";
 
 function Module2() {
   const questions = [
@@ -148,7 +147,6 @@ function Module2() {
   };
   return (
     <>
-      <img src={first} alt="First" style={{ width: 400 }} />
       <div className="Module2-main-container">
         <div className="header">
           <h3>Case-структуры</h3>
@@ -423,7 +421,7 @@ function Module2() {
             другой
           </p>
         </div>
-        <div className="app">
+        <div className="quiz">
           {showScore ? (
             <div className="score-section">
               You scored {score} out of {questions.length}

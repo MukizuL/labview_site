@@ -62,8 +62,8 @@
   align-items: stretch;
   text-align: left;
 }
-/*
-.app {
+
+.quiz {
   background-color: #252d4a;
   width: 450px;
   min-height: 200px;
@@ -72,6 +72,7 @@
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
+  align-self: center;
   justify-content: space-evenly;
 }
 
@@ -80,7 +81,6 @@
   font-size: 24px;
   align-items: center;
 }
-
 
 .question-section {
   width: 100%;
@@ -109,7 +109,6 @@
   text-align: center;
 }
 
-
 .answer-section {
   width: 100%;
   display: flex;
@@ -117,7 +116,7 @@
   justify-content: space-between;
 }
 
-button {
+.answer-section > button {
   width: 100%;
   font-size: 16px;
   color: #ffffff;
@@ -139,15 +138,14 @@ button {
   background-color: #ff3333;
 }
 
-button:hover {
+.answer-section > button:hover {
   background-color: #555e7d;
 }
 
-button:focus {
+.answer-section > button:focus {
   outline: none;
 }
 
-button svg {
+.answer-section > button svg {
   margin-right: 5px;
 }
-*/
